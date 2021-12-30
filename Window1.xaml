@@ -1,0 +1,17 @@
+﻿<Window x:Class="TestWpf1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWpf1"
+        mc:Ignorable="d"
+        Title="About" Height="193.914" Width="521.276" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="a766658779f0df1b07a6a1d114a6fc28.png"/>
+        <Label Content="Popular Toppling Jelly" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" FontSize="38" Width="390"/>
+        <Label Content="A very professional fall guys player and a very clueless programmer" HorizontalAlignment="Left" Margin="121,71,0,0" VerticalAlignment="Top"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="253" Height="41" Click="Button_Click"/>
+        <Button Content="Disgusting" HorizontalAlignment="Left" Margin="268,115,0,0" VerticalAlignment="Top" Width="237" Height="41" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
